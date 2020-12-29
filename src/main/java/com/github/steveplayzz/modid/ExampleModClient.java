@@ -1,4 +1,4 @@
-package com.github.draylar.modid;
+package com.github.steveplayzz.modid;
 
 import net.fabricmc.api.ClientModInitializer;
 

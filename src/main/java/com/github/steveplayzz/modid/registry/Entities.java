@@ -1,6 +1,6 @@
-package com.github.draylar.modid.registry;
+package com.github.steveplayzz.modid.registry;
 
-import com.github.draylar.modid.ExampleMod;
+import com.github.steveplayzz.modid.ExampleMod;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.Entity;
@@ -13,7 +13,7 @@ public class Entities {
 
 
     private static <T extends BlockEntity> BlockEntityType<T> register(String name, BlockEntityType<T> be) {
-        return Registry.register(Registry.BLOCK_ENTITY, new Identifier(ExampleMod.MODID, name), be);
+        return Registry.register(Registry.BLOCK_ENTITY_TYPE, new Identifier(ExampleMod.MODID, name), be);
     }
 
     private static <T extends Entity> EntityType<T> register(String name, EntityType<T> be) {

@@ -1,6 +1,6 @@
-package com.github.draylar.modid.registry;
+package com.github.steveplayzz.modid.registry;
 
-import com.github.draylar.modid.ExampleMod;
+import com.github.steveplayzz.modid.ExampleMod;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;

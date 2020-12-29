@@ -1,38 +1,40 @@
-
 {
   "schemaVersion": 1,
   "id": "modid",
-  "version": "${version}",
+  "version": "1.0.0",
 
   "name": "Fabric Example Mod",
-  "description": "Draylar's Fabric Example Mod!",
+  "description": "StevenPlayzz's Fabric Example Mod!",
   "authors": [
-    "Draylar"
+    "FabricMC team",
+    "Draylar",
+    "StevePlayzz"
   ],
   "contact": {
-    "homepage": "https://github.com/Draylar",
-    "sources": "https://github.com/Draylar/fabric-example-mod"
+    "homepage": "https://github.com/StevePlayzz",
+    "sources": "https://github.com/StevePlayzz/Fabric-Example-Mod"
   },
 
-  "license": "GPLv3",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.draylar.modid.ExampleMod"
+      "com.github.steveplayzz.modid.ExampleMod"
     ],
     "client": [
-      "com.github.draylar.modid.ExampleModClient"
+      "com.github.steveplayzz.modid.ExampleModClient"
     ]
   },
   "mixins": [
     "modid.mixins.json"
   ],
 
-  "requires": {
-    "fabricloader": ">=0.4.0",
-    "fabric": "*"
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
   },
   "suggests": {
     "flamingo": "*"

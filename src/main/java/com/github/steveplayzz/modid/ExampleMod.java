@@ -1,9 +1,9 @@
-package com.github.draylar.modid;
+package com.github.steveplayzz.modid;
 
-import com.github.draylar.modid.registry.Blocks;
-import com.github.draylar.modid.registry.Items;
-import com.github.draylar.modid.registry.Entities;
-import com.github.draylar.modid.config.ModConfig;
+import com.github.steveplayzz.modid.registry.Blocks;
+import com.github.steveplayzz.modid.registry.Items;
+import com.github.steveplayzz.modid.registry.Entities;
+import com.github.steveplayzz.modid.config.ModConfig;
 import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
 import me.sargunvohra.mcmods.autoconfig1u.serializer.GsonConfigSerializer;
 import net.fabricmc.api.ModInitializer;
