@@ -1,6 +1,6 @@
 # Fabric Example Mod
 
-Draylar's fork of the fabric-example-mod. Includes a modified package structure as well as several registry classes and a client initializer.
+StevenPlayzz's fork of the fabric-example-mod. Includes a modified package structure as well as several registry classes and a client initializer.
 
 ## Setup
 
