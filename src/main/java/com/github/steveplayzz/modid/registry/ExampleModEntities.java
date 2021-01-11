@@ -8,7 +8,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class Entities {
+public class ExampleModEntities {
 
 
 
@@ -24,7 +24,7 @@ public class Entities {
         // NO-OP
     }
 
-    private Entities() {
+    private ExampleModEntities() {
         // NO-OP
     }
 }

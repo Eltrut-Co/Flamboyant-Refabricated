@@ -1,9 +1,9 @@
 package com.github.steveplayzz.modid;
 
-import com.github.steveplayzz.modid.registry.Blocks;
-import com.github.steveplayzz.modid.registry.Items;
-import com.github.steveplayzz.modid.registry.Entities;
+import com.github.steveplayzz.modid.registry.ExampleModBlocks;
 import com.github.steveplayzz.modid.config.ModConfig;
+import com.github.steveplayzz.modid.registry.ExampleModEntities;
+import com.github.steveplayzz.modid.registry.ExampleModItems;
 import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
 import me.sargunvohra.mcmods.autoconfig1u.serializer.GsonConfigSerializer;
 import net.fabricmc.api.ModInitializer;
@@ -19,9 +19,11 @@ public class ExampleMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		Blocks.init();
-		Items.init();
-		Entities.init();
+		ExampleModBlocks.init();
+		ExampleModItems.init();
+		ExampleModEntities.init();
+		new ExampleModItems();
+		new ExampleModBlocks();
 	}
 
 	public static Identifier id(String name) {
