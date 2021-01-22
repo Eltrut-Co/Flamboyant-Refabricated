@@ -1,34 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "1.0.0",
+  "id": "flamboyant",
+  "version": "1.16.4-1.0.1",
 
-  "name": "Fabric Example Mod",
-  "description": "StevenPlayzz's Fabric Example Mod!",
+  "name": "Flamboyant Refabricated",
+  "description": "A §msimple§r mod that adds 16 colors to the game on top of the 16 we already have (§1O§2o§3o§4h, §5F§8a§9n§ac§by)",
   "authors": [
-    "FabricMC team",
-    "Draylar",
-    "StevePlayzz"
+    "Eltrut & Co."
   ],
   "contact": {
-    "homepage": "https://github.com/StevePlayzz",
-    "sources": "https://github.com/StevePlayzz/Fabric-Example-Mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/flamboyant-refabricated",
+    "sources": "https://github.com/Eltrut-Co/Flamboyant-Refabricated",
+    "issues": "https://github.com/Eltrut-Co/Flamboyant-Refabricated/issues"
   },
 
-  "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "license": "GPLv3",
+  "icon": "assets/flamboyant/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.steveplayzz.modid.ExampleMod"
+      "com.github.EltrutCo.flamboyant.Flamboyant"
     ],
     "client": [
-      "com.github.steveplayzz.modid.ExampleModClient"
+      "com.github.EltrutCo.flamboyant.FlamboyantClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "flamboyant.mixins.json"
   ],
 
   "depends": {
